@@ -1,0 +1,1 @@
+A simple blog about learning things.
