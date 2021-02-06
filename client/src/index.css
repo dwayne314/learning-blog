@@ -1,0 +1,12 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+    margin: 0px 20px;
+}
+
+:root {
+    --primary-color: #38618c;
+};

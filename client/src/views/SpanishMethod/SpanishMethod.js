@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SpanishMethod = () => {
     return (
-        <div class="spanish-method-container">
+        <div className="spanish-method-container">
             
         </div>
     )

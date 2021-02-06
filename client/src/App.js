@@ -11,9 +11,9 @@ import {
     SpanishVideos
 } from './views';
 
-export const App = () => {
+export const App = (props) => {
     return (
-        <div class="app-container">
+        <div className="app-container">
             <Header />
             <Switch>
                 <Route exact path="/" component={Home} />
@@ -27,6 +27,5 @@ export const App = () => {
         </div>
     )
 };
-
 
 export default App;

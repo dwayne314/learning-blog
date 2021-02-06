@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Card = () => {
     return (
-        <div class="card-container">
+        <div className="card-container">
             
         </div>
     )

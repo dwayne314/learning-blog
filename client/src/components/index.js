@@ -4,6 +4,7 @@ import SearchButton from './SearchButton/SearchButton';
 import Paginator from './Paginator/Paginator';
 import SelectOption from './SelectOption/SelectOption';
 import Card from './Card/Card';
+import NavBar from './NavBar/NavBar';
 
 
 export {
@@ -12,5 +13,6 @@ export {
     SearchButton,
     Paginator,
     SelectOption,
-    Card
+    Card,
+    NavBar
 };

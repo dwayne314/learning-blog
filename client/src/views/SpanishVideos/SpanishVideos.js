@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SpanishVideos = () => {
     return (
-        <div class="spanish-videos-container">
+        <div className="spanish-videos-container">
             
         </div>
     )

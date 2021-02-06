@@ -1,0 +1,45 @@
+.nav-bar-container {
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+}
+
+.nav-bar-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-bar-container > div {
+    margin: auto 10px;
+    position: relative;
+}
+
+.nav-bar-container > div:first-child {
+    margin-left: 0px;
+}
+
+.nav-bar-container > div:last-child {
+    margin-right: 0px;
+}
+
+.nav-item {
+    box-sizing: border-box;
+}
+
+.nav-item::after {
+    content: "|";
+    position: absolute;
+    right: 100%;
+    width: 11px;
+    font-size: 10px;
+    height: 100%;
+    line-height: 24px;
+}
+
+.nav-item:first-child::after {
+    content: "";
+}
+
+.active-link {
+    color: var(--primary-color);
+}

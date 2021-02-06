@@ -1,0 +1,22 @@
+.header-container > div {
+    margin: 10px 0px;
+}
+
+.header-sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-header {
+    font-weight: 700;
+}
+
+.title-sub-header {
+    font-weight: 100;
+}
+
+.header-line {
+    height: 5px;
+    width: 100%;
+    background-color: var(--primary-color);
+}

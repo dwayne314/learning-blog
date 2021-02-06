@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SelectOption = () => {
     return (
-        <div class="select-option-container">
+        <div className="select-option-container">
             
         </div>
     )
