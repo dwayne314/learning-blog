@@ -1,0 +1,81 @@
+
+.card-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.photo-card {
+    background-size: 100% 100%;
+}
+
+.icon-card {
+    background-color: #e2eaf2;
+    border: 4px solid;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.icon-card:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.photo-card-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: var(--primary-color);
+}
+
+.photo-card-content-container {
+    height: 150px;
+}
+
+.photo-card-container .photo-card-content-container .card-title {
+    font-size: 40px;
+}
+
+.photo-card-container .photo-card-content-container .card-subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.icon-card-container > .icon-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.card-container > .icon-card-container {
+    display: flex;
+}
+
+.card-container > .icon-card-container .icon-card-icon-container > img {
+    height: 75px;
+    width: 75px;
+}
+
+.card-container > .icon-card-container > .icon-card-body {
+    justify-content: space-between;
+    height: 50%;
+}
+
+.card-container > .icon-card-container > .icon-card-body > .card-icon-title {
+    font-size: 30px;
+}
+
+.clickable-card {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
